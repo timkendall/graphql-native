@@ -1,0 +1,22 @@
+{
+  "name": "graphql-native",
+  "version": "0.1.0",
+  "description": "Experimental native bindings to graphql-rust.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:timkendall/graphql-native.git"
+  },
+  "author": "timkendall <timkendall18@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  },
+  "devDependencies": {
+    "benny": "^3.6.14",
+    "graphql": "^15.3.0"
+  }
+}
